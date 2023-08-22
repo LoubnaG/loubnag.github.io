@@ -1,6 +1,31 @@
 # main links
 main:
-   - title: "start"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "SOC"
+    url: /soc/
+  - title: "Threat Hunting"
+    url: /threat-hunting/
+  - title: "Threat Intelligence"
+    url: /threat-intel/
+  - title: "CTF Writeups"
+    url: ctf-writeups
+  
+  - title: "About Author"
+    url: /about
+  
+  - title: "Certifications"
+    url: /certifications
+
+  - title: "Search"
+    url: /search/
+     
+  # - title: "Grid Categories"
+  #   url: /categories-grid/
+  # - title: "Grid Year Posts"
+  #   url: /year-archive-grid/
+  - title: "All Categories"
+    url: /categories/
+
+  - title: "Posts by Year"
+    url: /year-archive/
 
 
