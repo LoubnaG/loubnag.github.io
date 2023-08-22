@@ -1,12 +1,32 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+   - title: "SOC"
+    url: /soc/
+  - title: "Threat Hunting"
+    url: /threat-hunting/
+  - title: "Threat Intelligence"
+    url: /threat-intel/
+  - title: "CTF Writeups"
+    url: ctf-writeups
+  
+  - title: "About Author"
+    url: /about
+  
+  - title: "Home"
+    url: /splash-page/
+  
+  - title: "Certifications"
+    url: /certifications
+
+  - title: "Search"
+    url: /search/
+     
+  # - title: "Grid Categories"
+  #   url: /categories-grid/
+  # - title: "Grid Year Posts"
+  #   url: /year-archive-grid/
+  - title: "All Categories"
+    url: /categories/
+
+  - title: "Posts by Year"
+    url: /year-archive/
