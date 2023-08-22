@@ -106,28 +106,22 @@ analytics:
 author:
   name             : "Loubna Gouchag"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Blue Teamer - Aspiring SOC Analyst - Threat Analysis - Threat Hunting - Incidet Response & Digital Forensics"
+  bio              : "Blue Teamer - Aspiring SOC Analyst - Threat Analysis - Threat Hunting - DFIR"
   location         : "Morocco"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: "Portfolio"
+      icon: "fas fa-user-graduate"
       url: "https://loubnag.github.io/Loubna/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "linkedin.com/in/loubna-go"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square "
+      url: "mailto:loubnagouchag@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/LoubnaG"
 
 # Site Footer
 footer:
