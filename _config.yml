@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Loubna"
 title_separator          : "-"
-subtitle                 : 'Blue Team Blogs'# site tagline that appears below site title in masthead
+subtitle                 : 'Blue Team Blogs' #site tagline that appears below site title in masthead
 name                     : "Loubna Gouchag"
 description              : "Blue Teamer - Aspiring SOC Analyst - Threat Analysis - Threat Hunting - DFIR"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -238,6 +238,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -272,3 +273,4 @@ defaults:
       comments: false
       share: true
       related: true
+      
