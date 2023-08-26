@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
+title: "Posts by Category"
 permalink: /threat-intel/
-layout: categories
+layout: tags
 author_profile: true
 ---

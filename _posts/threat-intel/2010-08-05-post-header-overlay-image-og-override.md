@@ -1,19 +1,15 @@
 ---
 title: "Post: Overlay Image with OpenGraph Override"
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  og_image: /assets/images/page-header-og-image.png
+  overlay_image: /assets/images/redhat.png
+  og_image: /assets/images/redhat.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Learn more"
       url: "https://unsplash.com"
-categories:
-  - Layout
-  - Uncategorized
 tags:
-  - edge case
-  - image
-  - layout
+  - Blogs
+  - MISP
 last_modified_at: 2017-10-26T15:12:19-04:00
 ---
 

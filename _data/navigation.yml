@@ -7,7 +7,7 @@ main:
   - title: "Threat Intelligence"
     url: /threat-intel/
   - title: "CTF Writeups"
-    url: ctf-writeups
+    url: /ctf-writeups/
   
   - title: "About Author"
     url: /about

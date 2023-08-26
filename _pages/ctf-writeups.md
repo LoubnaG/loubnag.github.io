@@ -1,6 +1,7 @@
 ---
-title: "CTF"
+title: CTF
+layout: collection
 permalink: /ctf-writeups/
-layout: tags
+collection: ctf
 author_profile: true
 ---

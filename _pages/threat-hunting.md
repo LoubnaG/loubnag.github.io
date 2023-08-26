@@ -1,6 +1,6 @@
 ---
-title: "Threat Hunting"
+title: "Posts by Category"
 permalink: /threat-hunting/
-layout: categories
+layout: tags
 author_profile: true
 ---

@@ -1,0 +1,10 @@
+---
+layout: page
+title: WriteUps
+
+---
+{% for ct in site.ctf %}
+	<div class="ct">
+		<h2><a href="{{ ct.url }}">{{ ct.title }}</a></h2>
+	</div>
+{% endfor %}

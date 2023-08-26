@@ -239,6 +239,10 @@ tag_archive:
   type: liquid
   path: /tags/
 
+collections:
+  ctf:
+    output: true
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
