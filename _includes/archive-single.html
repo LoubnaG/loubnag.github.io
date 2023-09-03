@@ -2,7 +2,7 @@
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
-{% endif %}
+{% endif %} 
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -10,12 +10,42 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+{% if post.bg %} 
+  {% assign bg = post.bg %}
+{% else %}
+  {% assign bg = 'darkgrey' %}
+{% endif %} 
+
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+  <a href="{{ post.url | relative_url }}" class="card">
+    <div class="card-header">
+     <!-- <img src= ../assets/images/redhat.png alt="Teaser" /> -->
+     <img src= "{{ post.header.teaser }}" alt="Teaser" />
+    </div>
+    <div class="card-body">
+      <span class="tag " style="--bg: {{ bg }};">{{ post.ribbon }}</span>
+      <div class="marg1">{{ title }}</div>
+      <div class="adjust-line-height">
+        <!-- <p> -->
+          <span class="description">{{ post.description | truncate: 120}}</span> <br><br>
+         <p class="date-time"><i class="fa fa-clock-o"></i> {% include read-time.html %} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; {{post.date | date_to_string}}</p>
+        <!-- </p> -->
+      </div>
+       <!-- </div> -->
+    </div> 
+  </a>   
+</div>
+  
+
+<!-- <div class="{{ include.type | default: 'list' }}__item"> 
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
-      </div>
+      </div> 
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
@@ -27,4 +57,4 @@
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
-</div>
+</div> -->

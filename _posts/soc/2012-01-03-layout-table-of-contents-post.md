@@ -1,10 +1,16 @@
 ---
-title: "Layout: Post with Table of Contents"
+title: "Table of content soc post An exploration into the truck's "
+description: "An exploration into the truck's polarising design How to Add or Reduce Space Between the truck's polarising design"
 header:
-  image: assets/images/redhat.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-categories:
-  - Blogs
+  teaser: /soc/assets/images/test.jpeg
+  overlay_image: /soc/assets/images/test.jpeg
+  overlay_filter: 0.5
+categories: 
+  - Tutorials
+ribbon: technology  
+bg: green
+# bg: "#47bcd4"
+# bg: rgb(171, 14, 171)
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart"

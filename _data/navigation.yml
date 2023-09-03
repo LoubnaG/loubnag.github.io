@@ -25,7 +25,3 @@ main:
   - title: "All Categories"
     url: /categories/
 
-  - title: "Posts by Year"
-    url: /year-archive/
-
-
