@@ -15,7 +15,7 @@
     //  space between cards
      margin-top: 12px;
      //palette test
-    //  color: #c3ebc0;
+     //color: #d15107;
    } 
    a, a:hover, a:visited, a:active {
      color: inherit;
@@ -30,7 +30,7 @@
      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
      overflow: hidden;
      width: 900px;
-     height: 290px;
+     height: 270px;
      text-decoration: none;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      &:hover {
@@ -61,13 +61,14 @@
    }
    
    .tag {
-     border-radius: 50px;
-     font-size: 12px;
-     margin: -12px;
-     color: #fff;
-     padding: 2px 10px;
-     text-transform: uppercase;
-     background: var(--bg);
+    border-radius: 50px;
+    font-size: 12px;
+    margin-top:-20px;
+    margin-left: -12px;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    background: var(--bg);
    }
    .tag-teal {
      background-color: #47bcd4;

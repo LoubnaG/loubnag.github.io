@@ -1,6 +1,6 @@
 ---
 title: "Table of content soc post An exploration into the truck's "
-description: "An exploration into the truck's polarising design How to Add or Reduce Space Between the truck's polarising design"
+description: "An exploration into the truck's polarising design How to Add or Reduce Space"
 header:
   teaser: /soc/assets/images/test.jpeg
   overlay_image: /soc/assets/images/test.jpeg

@@ -114,7 +114,7 @@ author:
       icon: "fas fa-user-graduate"
       url: "https://loubnag.github.io/Loubna/"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"
+      icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/loubna-go"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square "
