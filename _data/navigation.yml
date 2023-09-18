@@ -11,17 +11,21 @@ main:
   
   - title: "About Author"
     url: /about
+
+  - title: "Portfolio"
+    url: https://loubnag.github.io/Loubna/  
+
+  - title: "Search"
+    url: /search/  
   
   - title: "Certifications"
     url: /certifications
 
-  - title: "Search"
-    url: /search/
+ 
      
   # - title: "Grid Categories"
   #   url: /categories-grid/
   # - title: "Grid Year Posts"
   #   url: /year-archive-grid/
-  - title: "All Categories"
-    url: /categories/
+ 
 
