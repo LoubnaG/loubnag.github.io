@@ -12,6 +12,9 @@ main:
   - title: "About Author"
     url: /about
 
+  - title: "Welcome Page"
+    url: https://loubnag.github.io/splash-page/ 
+
   - title: "Portfolio"
     url: https://loubnag.github.io/Loubna/  
 
