@@ -18,7 +18,7 @@ toc_label: "Table of Contents"
 # toc_icon: "heart"
 toc: true
 classes: wide
-last_modified_at: 2023-09-02
+last_modified_at: 2023-10-02
 ---
 <span style="color:#909090">Discover how you can  identify threats in a Windows environment.</span>
 
